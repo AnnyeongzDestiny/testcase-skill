@@ -1,0 +1,6 @@
+openpyxl>=3.1.0
+python-docx>=1.0.0
+pdfplumber>=0.10.0
+# pywin32 仅 Windows + Microsoft Office 环境下需要（用于 .doc 转换）
+# macOS / Linux 用户如需 .doc 支持，请安装 LibreOffice 并通过 soffice --headless 转换
+pywin32>=306; sys_platform == "win32"
