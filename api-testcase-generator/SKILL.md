@@ -1,6 +1,6 @@
 ---
 name: api-testcase-generator
-description: 接口测试用例生成 Skill。根据 OpenAPI/Swagger、Postman Collection、HAR、JSON Schema、Markdown API 文档生成接口测试用例；默认输出 Markdown 手工接口测试用例表，适合评审和手工执行。当用户明确要求“导入 Apifox/Postman”“可导入 JSON”“自动化集合”时，生成 Apifox/Postman Collection JSON。本 Skill 专注接口层测试；非接口业务功能用例请使用 case-design，游戏测试用例请使用 testcase-generator。
+description: 接口测试用例生成 Skill。根据 OpenAPI/Swagger、Postman Collection、HAR、JSON Schema、Markdown API 文档生成接口测试用例；默认输出 Markdown 手工接口测试用例表，适合评审和手工执行。当用户明确要求“导入 Apifox/Postman”“可导入 JSON”“自动化集合”时，生成 Apifox/Postman Collection JSON。本 Skill 专注接口层测试；非接口业务功能用例请使用 case-design，游戏测试用例请使用 game-testcase-generator。
 ---
 
 # 接口测试用例生成器
